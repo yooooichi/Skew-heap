@@ -3,12 +3,12 @@ using namespace std;
 
 struct Nodo { // min heap sesgado
     int dato; // prioridad
-    string caso;
+    string ubicacion;
     string descripcion;
     Nodo* izq;
     Nodo* der;
     
-    Nodo(int v, string x, string z) : dato(v), caso(x), descripcion(z), izq(nullptr), der(nullptr) {};
+    Nodo(int v, string x, string z) : dato(v), ubicacion(x), descripcion(z), izq(nullptr), der(nullptr) {};
 };
 
 Nodo* insertar(Nodo* aux1) {

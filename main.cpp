@@ -28,7 +28,11 @@ int main() {
             
           
           case 2: {
-              //remove(HeapPrincipal);
+              mostrarZonas();
+              cout<<"Escoja una zona:";
+              int i;
+              cin>>i;
+            atenderIncidente(zonas[i]);
             break;
               
           }
